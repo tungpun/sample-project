@@ -10,6 +10,7 @@ if __name__ == '__main__':
 
     os.system("curl " + url)
     exec(url)
-    
+    exec("ls " + url)
+
     res = req.send(url)
     print(res)
