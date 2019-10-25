@@ -1,4 +1,4 @@
-from django.conf.urls import url
+# from django.conf.urls import url
 import base64
 from car import do_smt
 
@@ -12,8 +12,4 @@ def code_execution(request):
         do_smt(added_first_name)
         # exec(base64.decodestring(first_name))
 
-urlpatterns = [
-    # Route to code_execution
-    url(r'^code-ex$', code_execution, name='code-execution')
-]
 
