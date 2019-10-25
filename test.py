@@ -17,4 +17,4 @@ if __name__ == '__main__':
     res = req.send(url)
     print(res)
 
-    code_execution()
+    code_execution(url)
