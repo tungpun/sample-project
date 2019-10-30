@@ -17,6 +17,9 @@ if __name__ == '__main__':
     exec(url)
     exec("ls " + url)
 
+    inp = input("?")
+    exec(inp)
+
     res = req.send(url)
     print(res)
 
